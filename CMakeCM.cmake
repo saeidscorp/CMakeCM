@@ -78,7 +78,7 @@ cmcm_module(FindFilesystem.cmake
     )
 
 cmcm_module(CMakeRC.cmake
-    REMOTE https://raw.githubusercontent.com/vector-of-bool/cmrc/966a1a717715f4e57fb1de00f589dea1001b5ae6/CMakeRC.cmake
+    REMOTE https://github.com/saeidscorp/cmrc/raw/9949a1cc237dd1ace568e96ba7b0ce2ebe33ddae/CMakeRC.cmake
     VERSION 1
     )
 
