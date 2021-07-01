@@ -101,3 +101,58 @@ cmcm_module(libman.cmake
     REMOTE https://github.com/vector-of-bool/libman/raw/85c5d23e700a9ed6b428aa78cfa556f60b925477/cmake/libman.cmake
     VERSION 1
     )
+
+cmcm_module(cs-tools.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/6c11e34cae48205cad84f4e433083c0579e7fa6b/tools.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-c++-standards.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/31cbfce8d84054aa6acbaf49b9121ab8789ec7bb/c%2B%2B-standards.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-sanitizers.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/2531dd656f9f940070b215266d1e2ed152c7a51d/sanitizers.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-code-coverage.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/e07087b0682da7ae0d2d9f9292fa4a7a6c821067/code-coverage.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-compiler-options.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/5f42869f09e812ec738d6d2d8387b2cf0bf2bb56/compiler-options.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-dependency-graph.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/8e52aeef77eed58f35b0f8f635011aec7a9bdb46/dependency-graph.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-formatting.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/0a7c837d2d3b363cb4752b299f5bd9c7eb359282/formatting.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-glsl-shaders.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/53bafc84da3c31325c5bac0f571420c59c95babc/glsl-shaders.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-doxygen.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/8e52aeef77eed58f35b0f8f635011aec7a9bdb46/doxygen.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-prepare-catch.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/53bafc84da3c31325c5bac0f571420c59c95babc/prepare-catch.cmake
+    VERSION 1
+    )
+
+cmcm_module(cs-link-time-optimization.cmake
+    REMOTE https://github.com/StableCoder/cmake-scripts/raw/e0cbdea29548996713ecddcac1ad3034730edac2/link-time-optimization.cmake
+    VERSION 1
+    )
